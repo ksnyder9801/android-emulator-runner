@@ -75,3 +75,5 @@ inputs:
    type: string
   skip-sdk:
    type: boolean
+  skip-avd:
+   type: boolean

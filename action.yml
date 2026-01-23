@@ -75,6 +75,8 @@ inputs:
     description: 'custom script to run after creating the AVD and before launching the emulator - e.g. `./adjust-emulator-configs.sh`'
   skip-sdk:
     description: 'skip sdk install'
+  skip-avd:
+    description: 'skip create avd'
 runs:
   using: 'node20'
   main: 'lib/main.js'
