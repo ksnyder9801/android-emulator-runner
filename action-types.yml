@@ -73,3 +73,5 @@ inputs:
    type: string
   pre-emulator-launch-script:
    type: string
+  skip-sdk:
+   type: boolean
